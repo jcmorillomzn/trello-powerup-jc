@@ -14,7 +14,7 @@
   },
   "connectors": {
     "*": {
-      "url": "/client.js"
+      "url": "https://trello-powerup-jc.vercel.app/client.js"
     }
   }
 }
