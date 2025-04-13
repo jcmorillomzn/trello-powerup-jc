@@ -12,5 +12,10 @@
       }
     ],
     "show-settings": false
+  },
+  "connectors": {
+    "*": {
+      "url": "/client.js"
+    }
   }
 }
