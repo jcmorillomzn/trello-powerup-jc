@@ -1,17 +1,16 @@
 {
-    "manifest_version": 1,
-    "name": "Trello PowerUp JC",
-    "description": "Panel de control para pedidos, tareas y clientes",
-    "permissions": ["board", "card", "member", "organization"],
-    "author": "JC Morillo",
-    "capabilities": {
-      "board-buttons": [
-        {
-          "text": "👑 Panel JC",
-          "callback": "showPanel"
-        }
-      ],
-      "show-settings": false
-    }
+  "manifest_version": 1,
+  "name": "Trello PowerUp JC",
+  "description": "Panel de control para pedidos, tareas y clientes",
+  "permissions": ["board"],
+  "author": "JC Morillo",
+  "capabilities": {
+    "board-buttons": [
+      {
+        "text": "👑 Panel JC",
+        "callback": "showPanel"
+      }
+    ],
+    "show-settings": false
   }
-  
+}
