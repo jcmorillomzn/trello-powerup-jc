@@ -1,17 +1,16 @@
 {
   "manifest_version": 1,
-  "name": "Trello PowerUp JC",
-  "description": "Panel de control para pedidos, tareas y clientes",
+  "name": "PowerUp TEST JC",
+  "description": "Prueba mínima de botón y popup",
   "permissions": ["board"],
   "author": "JC Morillo",
   "capabilities": {
     "board-buttons": [
       {
-        "text": "👑 Panel JC",
-        "callback": "showPanel"
+        "text": "🧪 Test Panel",
+        "callback": "openPopup"
       }
-    ],
-    "show-settings": false
+    ]
   },
   "connectors": {
     "*": {

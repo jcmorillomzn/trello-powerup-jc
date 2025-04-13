@@ -5,12 +5,12 @@ var Promise = TrelloPowerUp.Promise;
 TrelloPowerUp.initialize({
   'board-buttons': function (t, options) {
     return [{
-      text: '👑 Panel JC',
+      text: '🧪 Test Panel',
       callback: function (t) {
         return t.popup({
-          title: 'Panel JC',
-          url: 'panel.html',
-          height: 600
+          title: 'Panel de prueba',
+          url: 'popup.html',
+          height: 300
         });
       }
     }];
